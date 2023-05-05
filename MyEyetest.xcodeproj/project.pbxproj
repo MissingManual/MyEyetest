@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2621AEE82606524C006E8CEB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2621AEE62606524C006E8CEB /* MainMenu.xib */; };
+		26254F852A0512700082FACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26254F842A0512700082FACE /* Assets.xcassets */; };
 		26281EA505F42EF100F198F9 /* MyEyetestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26281EA305F42EF100F198F9 /* MyEyetestView.h */; };
 		26281EA605F42EF100F198F9 /* MyEyetestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26281EA405F42EF100F198F9 /* MyEyetestView.m */; };
-		26281EB205F42F2E00F198F9 /* MyEyetest.icns in Resources */ = {isa = PBXBuildFile; fileRef = 26281EB105F42F2E00F198F9 /* MyEyetest.icns */; };
 		268469B305FD027B00FF47C7 /* MyEyetest.help in Resources */ = {isa = PBXBuildFile; fileRef = 268469A605FD027B00FF47C7 /* MyEyetest.help */; };
 		26CA8308062AA45700D995DF /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CA8307062AA45700D995DF /* ApplicationServices.framework */; };
 		8D1107280486CEB800E47090 /* MyEyetest_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* MyEyetest_Prefix.pch */; };
@@ -24,9 +24,9 @@
 		260A6B0A2606723300F579A6 /* de */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = de; path = de.lproj/MyEyetest.help; sourceTree = "<group>"; };
 		2621AEE72606524C006E8CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		262341BE2A028DCE00467DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Base; path = Base.lproj/MyEyetest.help; sourceTree = "<group>"; };
+		26254F842A0512700082FACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26281EA305F42EF100F198F9 /* MyEyetestView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyEyetestView.h; sourceTree = "<group>"; };
 		26281EA405F42EF100F198F9 /* MyEyetestView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyEyetestView.m; sourceTree = "<group>"; };
-		26281EB105F42F2E00F198F9 /* MyEyetest.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MyEyetest.icns; sourceTree = "<group>"; };
 		268136572A01740700E9978A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		268136592A01740900E9978A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		26CA8307062AA45700D995DF /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
@@ -88,6 +88,7 @@
 		29B97314FDCFA39411CA2CEA /* MyEyetest */ = {
 			isa = PBXGroup;
 			children = (
+				26254F842A0512700082FACE /* Assets.xcassets */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -109,7 +110,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				26281EB105F42F2E00F198F9 /* MyEyetest.icns */,
 				268469A605FD027B00FF47C7 /* MyEyetest.help */,
 				2621AEE62606524C006E8CEB /* MainMenu.xib */,
 			);
@@ -193,9 +193,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26281EB205F42F2E00F198F9 /* MyEyetest.icns in Resources */,
 				268469B305FD027B00FF47C7 /* MyEyetest.help in Resources */,
 				2621AEE82606524C006E8CEB /* MainMenu.xib in Resources */,
+				26254F852A0512700082FACE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +241,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -291,6 +293,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -338,6 +342,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -382,6 +388,8 @@
 		2657BE7F08DD623B003163A0 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = default;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -418,6 +426,8 @@
 		2657BE8008DD623B003163A0 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = default;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -452,6 +462,8 @@
 		2657BE8108DD623B003163A0 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = default;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
