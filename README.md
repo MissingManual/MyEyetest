@@ -1,4 +1,5 @@
 # MyEyetest
+Version 1.0 2023-05-05
 Simple app playing with your brain
 
 Displays a grid of lines and circles where you will get the impression of black circles moving arround. Its a very old application updated for XCode 14.3.

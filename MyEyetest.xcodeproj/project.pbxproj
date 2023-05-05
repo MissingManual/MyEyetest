@@ -12,6 +12,7 @@
 		26281EA505F42EF100F198F9 /* MyEyetestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26281EA305F42EF100F198F9 /* MyEyetestView.h */; };
 		26281EA605F42EF100F198F9 /* MyEyetestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26281EA405F42EF100F198F9 /* MyEyetestView.m */; };
 		268469B305FD027B00FF47C7 /* MyEyetest.help in Resources */ = {isa = PBXBuildFile; fileRef = 268469A605FD027B00FF47C7 /* MyEyetest.help */; };
+		26A9DF4E2A054C400074C193 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 26A9DF4D2A054C400074C193 /* README.md */; };
 		26CA8308062AA45700D995DF /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CA8307062AA45700D995DF /* ApplicationServices.framework */; };
 		8D1107280486CEB800E47090 /* MyEyetest_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* MyEyetest_Prefix.pch */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -29,6 +30,7 @@
 		26281EA405F42EF100F198F9 /* MyEyetestView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyEyetestView.m; sourceTree = "<group>"; };
 		268136572A01740700E9978A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		268136592A01740900E9978A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		26A9DF4D2A054C400074C193 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26CA8307062AA45700D995DF /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				26254F842A0512700082FACE /* Assets.xcassets */,
+				26A9DF4D2A054C400074C193 /* README.md */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -195,6 +198,7 @@
 			files = (
 				268469B305FD027B00FF47C7 /* MyEyetest.help in Resources */,
 				2621AEE82606524C006E8CEB /* MainMenu.xib in Resources */,
+				26A9DF4E2A054C400074C193 /* README.md in Resources */,
 				26254F852A0512700082FACE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
