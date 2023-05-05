@@ -1,0 +1,162 @@
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"5.title" = "Bring All to Front";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"19.title" = "Window";
+
+/* Class = "NSWindow"; title = "Window (Xcode 10)"; ObjectID = "21"; */
+"21.title" = "Window (Xcode 10)";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; */
+"23.title" = "Minimize";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"24.title" = "Window";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "MyEyetest"; ObjectID = "56"; */
+"56.title" = "MyEyetest";
+
+/* Class = "NSMenu"; title = "MyEyetest"; ObjectID = "57"; */
+"57.title" = "MyEyetest";
+
+/* Class = "NSMenuItem"; title = "About MyEyetest…"; ObjectID = "58"; */
+"58.title" = "About MyEyetest…";
+
+/* Class = "NSMenuItem"; title = "Page Setup..."; ObjectID = "77"; */
+"77.title" = "Page Setup...";
+
+/* Class = "NSMenuItem"; title = "Print..."; ObjectID = "78"; */
+"78.title" = "Print...";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "81"; */
+"81.title" = "File";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "82"; */
+"82.title" = "New";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "83"; */
+"83.title" = "File";
+
+/* Class = "NSMenuItem"; title = "Preferences..."; ObjectID = "129"; */
+"129.title" = "Preferences...";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Hide MyEyetest"; ObjectID = "134"; */
+"134.title" = "Hide MyEyetest";
+
+/* Class = "NSMenuItem"; title = "Quit MyEyetest"; ObjectID = "136"; */
+"136.title" = "Quit MyEyetest";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "Hide Others";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Find..."; ObjectID = "154"; */
+"154.title" = "Find...";
+
+/* Class = "NSMenuItem"; title = "Scroll to Selection"; ObjectID = "155"; */
+"155.title" = "Scroll to Selection";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "157"; */
+"157.title" = "Copy";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "158"; */
+"158.title" = "Undo";
+
+/* Class = "NSMenu"; title = "Find"; ObjectID = "159"; */
+"159.title" = "Find";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "160"; */
+"160.title" = "Cut";
+
+/* Class = "NSMenuItem"; title = "Use Selection for Find"; ObjectID = "161"; */
+"161.title" = "Use Selection for Find";
+
+/* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "162"; */
+"162.title" = "Find Previous";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "163"; */
+"163.title" = "Edit";
+
+/* Class = "NSMenuItem"; title = "Clear"; ObjectID = "164"; */
+"164.title" = "Clear";
+
+/* Class = "NSMenuItem"; title = "Find Next"; ObjectID = "167"; */
+"167.title" = "Find Next";
+
+/* Class = "NSMenuItem"; title = "Find"; ObjectID = "168"; */
+"168.title" = "Find";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "169"; */
+"169.title" = "Edit";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "171"; */
+"171.title" = "Paste";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "172"; */
+"172.title" = "Select All";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "173"; */
+"173.title" = "Redo";
+
+/* Class = "NSMenuItem"; title = "Spelling"; ObjectID = "184"; */
+"184.title" = "Spelling";
+
+/* Class = "NSMenu"; title = "Spelling"; ObjectID = "185"; */
+"185.title" = "Spelling";
+
+/* Class = "NSMenuItem"; title = "Spelling..."; ObjectID = "187"; */
+"187.title" = "Spelling...";
+
+/* Class = "NSMenuItem"; title = "Check Spelling"; ObjectID = "189"; */
+"189.title" = "Check Spelling";
+
+/* Class = "NSMenuItem"; title = "Check Spelling As You Type"; ObjectID = "191"; */
+"191.title" = "Check Spelling As You Type";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Setting of Circle diameter"; ObjectID = "195"; */
+"195.ibShadowedToolTip" = "Setting of Circle diameter";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Setting the line width"; ObjectID = "196"; */
+"196.ibShadowedToolTip" = "Setting the line width";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Distance between horiz./vert. lines"; ObjectID = "197"; */
+"197.ibShadowedToolTip" = "Distance between horiz./vert. lines";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Gray level of lines"; ObjectID = "204"; */
+"204.ibShadowedToolTip" = "Gray level of lines";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "219"; */
+"219.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "MyEyetest Help"; ObjectID = "220"; */
+"220.title" = "MyEyetest Help";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "221"; */
+"221.title" = "Help";
+
+/* Class = "NSTextFieldCell"; title = "Line width\n"; ObjectID = "234"; */
+"234.title" = "Line width\n";
+
+/* Class = "NSTextFieldCell"; title = "Diameter"; ObjectID = "235"; */
+"235.title" = "Diameter";
+
+/* Class = "NSTextFieldCell"; title = "Distance\n"; ObjectID = "236"; */
+"236.title" = "Distance\n";
+
+/* Class = "NSTextFieldCell"; title = "Line transparency"; ObjectID = "237"; */
+"237.title" = "Line transparency";
+
+/* Class = "NSButtonCell"; title = "FullScreen"; ObjectID = "WmO-fS-slL"; */
+"WmO-fS-slL.title" = "FullScreen";
