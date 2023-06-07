@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'MyEyetest' target in the 'MyEyetest' project
+// Prefix header for all source files of the 'MyEyetest' target in the 'MyEyetest' project 
 //
 
 #ifdef __OBJC__
